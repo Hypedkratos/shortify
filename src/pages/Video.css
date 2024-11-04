@@ -1,0 +1,63 @@
+.right_btns {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  background-color: transparent;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 20px;
+}
+
+.btn_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.heart_liked,
+.heart_unliked {
+}
+
+.text {
+  color: white;
+}
+
+.desc_container_normal {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 78vw;
+  max-width: 600px;
+}
+
+.icon_creator_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.creator_name {
+  font-size: 22px;
+  font-weight: 700;
+}
+.title {
+  font-size: 18px;
+  font-weight: 500px;
+  color: white;
+}
+
+.desc,
+.desc_short {
+  font-size: 16px;
+  font-weight: 500px;
+  color: white;
+}
