@@ -1,0 +1,7 @@
+{
+  "name": "shortify",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
