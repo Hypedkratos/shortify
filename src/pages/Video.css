@@ -82,6 +82,81 @@
   animation: heart_pop 1s ease;
 }
 
+.video-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.slide-in-from-top {
+  transform: translateY(-100%);
+  opacity: 0;
+  animation: slideDownIn 0.6s forwards;
+}
+
+.slide-in-from-bottom {
+  transform: translateY(100%);
+  opacity: 0;
+  animation: slideUpIn 0.6s forwards;
+}
+
+.slide-out-to-top {
+  animation: slideUpOut 0.6s forwards;
+}
+
+.slide-out-to-bottom {
+  animation: slideDownOut 0.6s forwards;
+}
+
+.main_container {
+  background-color: aqua;
+}
+
+@keyframes slideUpIn {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDownIn {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUpOut {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slideDownOut {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
 @keyframes heart_pop {
   0% {
     transform: scale(1);

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "url": "/data/videos/video1.mp4",
+    "url": "https://res.cloudinary.com/dth0hfqfa/video/upload/v1730804046/vid3_ytobqv.mp4",
     "vid-icon": "/data/videoicons/icon1.png",
     "vid-creator": "John Doe",
     "vid-title": "This is the first video",
@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "url": "/data/videos/video2.mp4",
+    "url": "https://res.cloudinary.com/dth0hfqfa/video/upload/v1730804043/vid5_utqp3r.mp4",
     "vid-icon": "/data/videoicons/icon2.png",
     "vid-creator": "Teck Smith",
     "vid-title": "This is the second video",
@@ -27,7 +27,7 @@
   },
   {
     "id": 3,
-    "url": "/data/videos/video3.mp4",
+    "url": "https://res.cloudinary.com/dth0hfqfa/video/upload/v1730804043/vid4_jjjhqe.mp4",
     "vid-icon": "/data/videoicons/icon3.png",
     "vid-creator": "Jane Doe",
     "vid-title": "This is the third video",
@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "url": "/data/videos/video4.mp4",
+    "url": "https://res.cloudinary.com/dth0hfqfa/video/upload/v1730804042/vid2_bnpkcp.mp4",
     "vid-icon": "/data/videoicons/icon4.png",
     "vid-creator": "Johny Doe",
     "vid-title": "This is the fourth video",
@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "url": "/data/videos/video5.mp4",
+    "url": "https://res.cloudinary.com/dth0hfqfa/video/upload/v1730804041/vid1_fqibui.mp4",
     "vid-icon": "/data/videoicons/icon5.png",
     "vid-creator": "Some Creator",
     "vid-title": "This is the fifth video",
