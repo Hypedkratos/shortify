@@ -71,7 +71,7 @@ const Video = () => {
                       color="white"
                     />
                   )}
-                  <span className="text">3.6k</span>
+                  <span className="text">{video.likes}</span>
                 </div>
 
                 <div className="btn_container">
@@ -80,7 +80,7 @@ const Video = () => {
                     className="heart_unliked"
                     color="white"
                   />
-                  <span className="text">350</span>
+                  <span className="text">{video.comments}</span>
                 </div>
                 <div className="btn_container">
                   <PiShareFatLight
@@ -88,7 +88,7 @@ const Video = () => {
                     className="heart_unliked"
                     color="white"
                   />
-                  <span className="text">1k</span>
+                  <span className="text">{video.shares}</span>
                 </div>
               </div>
               {/* right hand side buttons section end */}

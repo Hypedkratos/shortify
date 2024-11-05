@@ -6,8 +6,12 @@ const VideoReel: React.FC<{ videoUrl: string; isActive: boolean }> = ({
 }) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [progress, setProgress] = useState(0);
+  // todo add follow btn
   // todo add muted functionality
   // const [isMuted, setIsMuted] = useState(false);
+  // todo control video playback
+  // todo comments section overlay
+  // todo handle individual likes
 
   useEffect(() => {
     if (isActive) {
