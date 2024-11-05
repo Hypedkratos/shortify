@@ -10,14 +10,16 @@ import { IoMdHeart } from "react-icons/io";
 import { IoIosHeartEmpty } from "react-icons/io";
 import { PiShareFatLight } from "react-icons/pi";
 import { TfiCommentAlt } from "react-icons/tfi";
+import { GoHeartFill } from "react-icons/go";
 
 const Video = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const [isLiked, setIsLiked] = useState(false);
+  const [isLikedAnimation, setIsLikedAnimation] = useState(false);
   const [isDescExpanded, setIsDescExpanded] = useState(false);
 
-  const handleSwipe = (direction) => {
+  const handleSwipe = (direction: string) => {
     if (direction === "UP" && currentIndex < videoData.length - 1) {
       setCurrentIndex((prevIndex) => prevIndex + 1);
       console.log("Swiped up - Index:", currentIndex + 1);
@@ -34,6 +36,14 @@ const Video = () => {
     trackTouch: true,
     trackMouse: true,
   });
+
+  const handleLike = () => {
+    setIsLiked(!isLiked);
+    setIsLikedAnimation(true);
+    setTimeout(() => {
+      setIsLikedAnimation(false);
+    }, 1300);
+  };
 
   return (
     <IonPage>
@@ -67,7 +77,7 @@ const Video = () => {
                     <IoIosHeartEmpty
                       size={40}
                       className="heart_unliked"
-                      onClick={() => setIsLiked(!isLiked)}
+                      onClick={() => handleLike()}
                       color="white"
                     />
                   )}
@@ -112,6 +122,15 @@ const Video = () => {
                 )}
               </div>
               {/* left description section end */}
+              {/* liked overlay section start */}
+              <div
+                className={
+                  isLikedAnimation ? `liked_overlay` : `liked_overlay_hidden`
+                }
+              >
+                <GoHeartFill color="red" size={80} className="liked_heart" />
+              </div>
+              {/* liked overlay section end */}
             </div>
           </div>
         ))}

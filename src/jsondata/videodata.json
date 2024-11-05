@@ -5,8 +5,8 @@
     "vid-icon": "/data/videoicons/icon1.png",
     "vid-creator": "John Doe",
     "vid-title": "This is the first video",
-    "vid-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip",
-    "vid-desc-short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+    "vid-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+    "vid-desc-short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...",
     "liked": false,
     "likes": "10k",
     "comments": "1000",
@@ -18,12 +18,12 @@
     "vid-icon": "/data/videoicons/icon2.png",
     "vid-creator": "Teck Smith",
     "vid-title": "This is the second video",
-    "vid-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip",
-    "vid-desc-short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+    "vid-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+    "vid-desc-short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...",
     "liked": false,
-    "likes": "10k",
-    "comments": "1000",
-    "shares": "1k"
+    "likes": "3k",
+    "comments": "523",
+    "shares": "678"
   },
   {
     "id": 3,
@@ -31,12 +31,12 @@
     "vid-icon": "/data/videoicons/icon3.png",
     "vid-creator": "Jane Doe",
     "vid-title": "This is the third video",
-    "vid-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip",
-    "vid-desc-short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+    "vid-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+    "vid-desc-short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...",
     "liked": false,
-    "likes": "10k",
-    "comments": "1000",
-    "shares": "1k"
+    "likes": "1M",
+    "comments": "41k",
+    "shares": "6M"
   },
   {
     "id": 4,
@@ -44,12 +44,12 @@
     "vid-icon": "/data/videoicons/icon4.png",
     "vid-creator": "Johny Doe",
     "vid-title": "This is the fourth video",
-    "vid-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip",
-    "vid-desc-short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+    "vid-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+    "vid-desc-short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...",
     "liked": false,
-    "likes": "10k",
-    "comments": "1000",
-    "shares": "1k"
+    "likes": "3.8k",
+    "comments": "238",
+    "shares": "934"
   },
   {
     "id": 5,
@@ -57,11 +57,11 @@
     "vid-icon": "/data/videoicons/icon5.png",
     "vid-creator": "Some Creator",
     "vid-title": "This is the fifth video",
-    "vid-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip",
-    "vid-desc-short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+    "vid-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+    "vid-desc-short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...",
     "liked": false,
-    "likes": "10k",
-    "comments": "1000",
-    "shares": "1k"
+    "likes": "4.9k",
+    "comments": "108",
+    "shares": "1.1k"
   }
 ]
